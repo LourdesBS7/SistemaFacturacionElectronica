@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const response = await fetch('https://sistemafacturacion.onrender.com/api/usuarios/login', {
+            const response = await fetch('/api/usuarios/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
